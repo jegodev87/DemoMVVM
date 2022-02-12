@@ -10,5 +10,6 @@ import com.sample.customerreg.models.models.employee.Employee
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase(){
+
     abstract val dao: EmployeeDao
 }
